@@ -1,14 +1,12 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -21,7 +19,6 @@ header {
     text-align: center;
     margin-bottom: 20px;
 }
-
 img.imagjuanita {
     max-width: 100px;
     height: auto;
@@ -29,14 +26,12 @@ img.imagjuanita {
     flex-direction: wrap;
     flex-wrap: wrap;
 }
-
 .cont-intro {
     display: flex;
     flex-direction: wrap;
     flex-wrap: wrap;
     
 }
-
 .cont-intro ul.intro {
     list-style: none;
     display: flex;
@@ -44,34 +39,28 @@ img.imagjuanita {
     flex-direction: wrap;
     flex-wrap: wrap;
 }
-
 .cont-intro ul.intro li {
     padding: 10px 0;
 }
-
 .cont-intro ul.intro li a {
     color: white;
     text-decoration: none;
     font-size: 1em;
     padding: 5px 10px;
 }
-
 .cont-intro ul.intro li a:hover {
     background-color: #555;
     border-radius: 5px;
 }
-
 main {
     padding: 20px;
 }
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     flex-direction: wrap;
 }
-
 .grid-item {
     background-color: #f0f0f0;
     border: 1px solid #ddd;
@@ -79,19 +68,16 @@ main {
     text-align: center;
     border-radius: 5px;
 }
-
 .grid-item img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
     margin-bottom: 10px;
 }
-
 .description {
     margin: 10px 0;
     font-weight: bold;
 }
-
 .masinfo {
     background-color: #4CAF50;
     color: white;
@@ -100,11 +86,9 @@ main {
     cursor: pointer;
     border-radius: 5px;
 }
-
 .masinfo:hover {
     background-color: #45a049;
 }
-
 footer.end  {
     background-color: #333;
     color: white;
@@ -112,7 +96,6 @@ footer.end  {
     padding: 20px;
     
 }
-
 footer.end .imagjuanita {
     max-width: 80px;
     height: auto;
@@ -120,31 +103,25 @@ footer.end .imagjuanita {
 
     
 }
-
 footer.end p, footer.end small {
     margin: 5px 0;
 }
-
 footer.end p a {
     color: #4CAF50;
     text-decoration: none;
 }
-
 footer.end p a:hover {
     text-decoration: underline;
 }
-
 footer.end div {
     margin-top: 10px;
 }
-
 footer.end div img {
     max-width: 30px;
     height: auto;
     margin: 0 10px;
     vertical-align: middle;
 }
-
 .form-container {
     max-width: 600px;
     margin: 0 auto;
@@ -153,26 +130,21 @@ footer.end div img {
     border-radius: 5px;
     background-color: #f9f9f9;
 }
-
 form fieldset {
     border: none;
     margin-bottom: 15px;
 }
-
 form legend {
     font-size: 1.2em;
     margin-bottom: 10px;
 }
-
 form div {
     margin-bottom: 10px;
 }
-
 form label {
     display: block;
     margin-bottom: 5px;
 }
-
 form input[type="text"],
 form input[type="email"],
 form input[type="tel"] {
@@ -181,7 +153,6 @@ form input[type="tel"] {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-
 form input[type="submit"] {
     display: block;
     width: 100%;
@@ -192,16 +163,12 @@ form input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
-
 form input[type="submit"]:hover {
     background-color: #45a049;
 }
-
 form input[type="checkbox"] {
     margin-right: 10px;
 }
-
-
 section iframe {
     display: block;
     margin: 20px auto;
@@ -211,46 +178,6 @@ section iframe {
     border: 0;
     border-radius: 5px;
 }
-
-
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav a {
-        margin-bottom: 10px;
-    }
-
-    form input[type="submit"] {
-        padding: 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        padding: 10px;
-    }
-
-
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    form input[type="text"],
-    form input[type="email"],
-    form input[type="tel"] {
-        padding: 8px;
-    }
-
-    form input[type="submit"] {
-        padding: 12px;
-    }
-}
-
-
 h2, h3 {
     margin-bottom: 10px;
 }
@@ -273,19 +200,53 @@ textarea {
     border-radius: 5px;
     margin-top: 10px;
 }
-
 p {
     margin-top: 20px;
 }
-
-@media (max-width: 768px) {
-    textarea {
-        height: 150px;
-    }
-}
-
 .grid-center {
     display: grid;
     place-items: center;
     text-align: center;
 }
+.metodos {
+    display: grid;
+    place-items: center;
+    text-align: center; 
+}
+.btn-primary {
+    --bs-btn-bg: darkgrey;
+}
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        margin-bottom: 10px;
+    }
+    form input[type="submit"] {
+        padding: 15px;
+    }
+}
+@media (max-width: 480px) {
+        body {
+        padding: 10px;
+    }
+}
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"] {
+        padding: 8px;
+    }
+    form input[type="submit"] {
+        padding: 12px;
+    }
+    @media (max-width: 768px) {
+        textarea {
+            height: 150px;
+        }
+     }    
