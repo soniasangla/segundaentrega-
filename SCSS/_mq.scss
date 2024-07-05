@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        margin-bottom: 10px;
+    }
+    form input[type="submit"] {
+        padding: 15px;
+    }
+}
+@media (max-width: 480px) {
+        body {
+        padding: 10px;
+    }
+}
+@media (max-width: 768px) {
+    textarea {
+        height: 150px;
+    }
+ }    

@@ -1,0 +1,39 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @mixin footer-styles {
+    background-color: $primary-color;
+    color: $tercer-color;
+    padding: 20px;
+    text-align: center;
+    font-family: $title-principal;
+    img.imagjuanita {
+      max-width: 100px;
+      height: auto;
+    }
+    p {
+      margin: 5px 0;
+    }
+    a {
+      color: $secondary-color;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    div {
+      margin-top: 10px;
+      img {
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+      }
+    }
+  }
+
+ 
+
+
+  

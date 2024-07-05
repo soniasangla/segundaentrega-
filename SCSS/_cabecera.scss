@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    height: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 20px;
+}
+img.imagjuanita {
+    max-width: 100px;
+    height: auto;
+    
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    animation-name: moveJuanita;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.cont-intro {
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+}
+.intro {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    color: white;
+}
+.cont-intro ul.intro li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 10px;
+}
+.cont-intro ul.intro li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}

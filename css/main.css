@@ -1,0 +1,316 @@
+* {
+  font-family: "Playwrite DE Grund", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  height: auto;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 20px;
+}
+img.imagjuanita {
+  max-width: 100px;
+  height: auto;
+  flex-direction: wrap;
+  flex-wrap: wrap;
+  animation-name: moveJuanita;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.cont-intro {
+  display: flex;
+  flex-direction: wrap;
+  flex-wrap: wrap;
+}
+.intro {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  flex-direction: wrap;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  color: white;
+}
+.cont-intro ul.intro li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 5px 10px;
+}
+.cont-intro ul.intro li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+body {
+  line-height: 1.5;
+}
+main {
+  padding: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  flex-direction: wrap;
+}
+.grid-item {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+.grid-item-description {
+  margin: 10px 0;
+  font-weight: bold;
+}
+.grid-item-masinfo {
+  background-color: #4CAF50;
+  color: #f9f9f9;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.grid-item:hover {
+  background-color: #454645;
+}
+section iframe {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  border: 0;
+  border-radius: 5px;
+}
+h2, h3 {
+  margin-bottom: 10px;
+}
+details {
+  margin-bottom: 10px;
+}
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+ul, ol {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+p {
+  margin-top: 20px;
+}
+.grid-center {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.metodos {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.btn-primary {
+  --bs-btn-bg: darkgrey;
+}
+.card {
+  width: 18rem;
+}
+nav {
+  flex-direction: column;
+  align-items: flex-start;
+}
+form input[type=text],
+form input[type=email],
+form input[type=tel] {
+  padding: 8px;
+}
+form input[type=submit] {
+  padding: 12px;
+}
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+form fieldset {
+  border: none;
+  margin-bottom: 15px;
+}
+form legend {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+form div {
+  margin-bottom: 10px;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+form input[type=text],
+form input[type=email],
+form input[type=tel] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+form input[type=submit] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form input[type=submit]:hover {
+  background-color: #2ecc71;
+}
+form input[type=checkbox] {
+  margin-right: 10px;
+}
+body {
+  font-family: "Playwrite DE Grund";
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #141516;
+  padding: 20px;
+  text-align: center;
+}
+header .imagjuanita {
+  width: 100px;
+}
+header h1 {
+  color: #fff;
+}
+header .cont-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .cont-intro .intro {
+  list-style: none;
+  padding: 0;
+}
+header .cont-intro .intro li {
+  display: inline;
+  margin: 0 10px;
+}
+header .cont-intro .intro li a {
+  color: #fff;
+  text-decoration: none;
+}
+.grid-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.grid-center .center-img {
+  width: 300px;
+  margin: 20px 0;
+}
+.grid-center iframe {
+  margin: 20px 0;
+}
+.end .imagjuanita {
+  width: 80px;
+}
+.end input {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.end div {
+  margin-top: 10px;
+}
+.end div img {
+  width: 30px;
+  margin: 0 5px;
+}
+.end {
+  background-color: #141516;
+  color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  font-family: "Playwrite DE Grund";
+}
+.end img.imagjuanita {
+  max-width: 100px;
+  height: auto;
+}
+.end p {
+  margin: 5px 0;
+}
+.end a {
+  color: #2ecc71;
+  text-decoration: none;
+}
+.end a:hover {
+  text-decoration: underline;
+}
+.end div {
+  margin-top: 10px;
+}
+.end div img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav a {
+    margin-bottom: 10px;
+  }
+  form input[type=submit] {
+    padding: 15px;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  textarea {
+    height: 150px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

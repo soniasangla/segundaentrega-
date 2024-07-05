@@ -3,33 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
     <meta name="theme-color" content="#497e76">
     <title>Productos</title>
     <meta name="robots" content="index, follow">
     <link rel="icon" type="img/jpg" href="/assets/juanitabyn.jpg">   
     <meta name="descubrir" content=" Tienda de mascotas, especializada en animales pequeños"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body> 
     <header>  
         <img class="imagjuanita" src="/assets/juanitabyn.jpg" alt="juanitalogo">
-        <h1> Productos</h1>
+        <h1 class="animate__animated animate__pulse"> Productos</h1>
         <nav class="cont-intro">
-            <ul class="intro">          
-                <li><a href="/pages/quienessomos.html"> Quienes somos </a></li>
-                <li><a href="/pages/contacto.html"> Contacto </a></li>
-                <li><a href="/pages/faqs.html"> Faqs </a></li>
+            <ul class="intro">  
+                <li><a href="/index.html"> Homme</li>
+                <li><a href="./faqs.html"> Faqs</a></li>
+                <li><a href="./quienessomos.html"> Quienes somos </a></li>
+                <li><a href="./contacto.html"> Contacto </a></li>
                 <li><a href="LogIn"> LogIn</a></li>
             </ul>
         </nav>
     </header>   
-
-
-<!-- ESTA SECCION NO ESTA FINALIZADA-->
-
-
-    <section>  <!--queria hacer un selector pero no me salio-->
+    <section>  
         <details>
             <summary> Especie </summary>
                 <ul>
@@ -39,36 +39,70 @@
                 </ul>
         </details>
     </section>
-
-        <br>
-
-    <section>
-        <img src="/assets/sobre-filete-pollo.jpg" alt="Sobre raza chica">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quasi minima quaerat facilis distinctio assumenda veritatis debitis laudantium doloribus? Quibusdam commodi debitis doloribus sint explicabo dolorem nobis natus quasi vero.</p>
-                <input type="submit" value="Comprar" >
-            <br>
-            <br>
-
-        <img src="/assets/pedrigree-raza-pequeña.jpg" alt="Raza chica">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias adipisci provident ea magnam sed eum asperiores, dolorem veniam deserunt. Neque consequatur molestias ea minus nostrum aspernatur cum, optio eaque ipsum?</p>
-                <input type="submit" value="Comprar" >
-            <br>
-            <br>
-
-        <img src="/assets/pedrigree-raza-grande.jpg" alt="Raza grande">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat inventore eaque ipsum molestiae commodi fuga excepturi iste cupiditate tempore illum! Dolorem vel debitis libero officia minus necessitatibus repellendus dolor assumenda!</p>
-                <input type="submit" value="Comprar" >
-    </section>
-   
-
-
-
-
-
-
-
-
-
+    <main>
+        <section class="grid-container">            
+            <div class="grid-item">
+                    <img src="/assets/sobrecitogato.jpg" alt="Filete carne">
+                    <p class="description"> Filete carne para gato</p>
+                    <button class="masinfo"> Mas Info</button>
+            </div>
+            <div class="grid-item">
+                    <img src="/assets/agilitygato.jpg" alt="Agility gato">
+                    <p class="description"> Agility para gato</p>
+                    <button class="masinfo"> Mas Info</button>
+            </div>
+            <div class="grid-item">
+                    <img src="/assets/fitgato.jpg" alt="Fit gato">
+                    <p class="description"> Gato Fit</p>
+                    <button class="masinfo"> Mas Info</button>
+            </div>
+            <div class="grid-item">
+                    <img src="/assets/proplangatoadulto.jpg" alt="Proplan gato Adulto">
+                    <p class="description"> Proplan Gato Adulto</p>
+                    <button class="masinfo"> Mas Info</button>
+            </div>
+            <div class="grid-item">
+                <img src="/assets/gati.jpg" alt="Gati">
+                <p class="description"> Gati Casero</p>
+                <button class="masinfo"> Mas Info</button>
+            </div>
+            <div class="grid-item">
+                <img src="/assets/minino.jpg" alt="Minino">
+                <p class="description"> Minino </p>
+                <button class="masinfo"> Mas Info</button>
+            </div>
+            <div class="grid-item">
+                <img src="/assets/pateperro.jpg" alt="Pate">
+                <p class="description"> Pate para perro</p>
+                <button class="masinfo"> Mas Info</button>
+            </div>
+            <div class="grid-item">
+                <img src="/assets/dogui.jpg" alt="Dogui">
+                <p class="description"> Dogui especial</p>
+                <button class="masinfo"> Mas Info</button>
+            </div>
+            <div class="grid-item">
+                <img src="/assets/royalcaningadulto.jpg" alt="Royal">
+                <p class="description"> Royal Adulto</p>
+                <button class="masinfo"> Mas Info</button>
+            </div>
+            <div class="grid-item">
+                <img src="/assets/eukanuba.jpg" alt="Eucanuba">
+                <p class="description"> Eucanuba</p>
+                <button class="masinfo"> Mas Info</button>
+            </div>
+            <div class="grid-item">
+                <img src="/assets/oldprincecordero.jpg" alt="Old prince">
+                <p class="description"> Old Prince Cordero</p>
+                <button class="masinfo"> Mas Info</button>
+            </div>
+            <div class="grid-item">
+                <img src="/assets/advanceperro.jpg" alt="Advance">
+                <p class="description"> Advance</p>
+                <button class="masinfo"> Mas Info</button>
+            </div>
+        </section>
+    </main>
     <footer class="end">
         <img class="imagjuanita" src="/assets/juanitabyn.jpg" alt="logo-ppal">
         <P> Puedes contactarte con nosotros al: 1158588333</P>

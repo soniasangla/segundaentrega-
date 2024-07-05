@@ -1,0 +1,102 @@
+body {
+    line-height: 1.5;
+}
+main {
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    flex-direction: wrap;
+}
+.grid-item { 
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    &-description {
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    &-masinfo {
+        background-color: #4CAF50;
+        color: $tercer-color;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+    &:hover {
+    background-color: #454645;
+}
+}
+section iframe {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+    border-radius: 5px;
+}
+h2, h3 {
+    margin-bottom: 10px;
+}
+details {
+    margin-bottom: 10px;
+}
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+ul, ol {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+p {
+    margin-top: 20px;
+}
+.grid-center {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.metodos {
+    display: grid;
+    place-items: center;
+    text-align: center; 
+}
+.btn-primary {
+    --bs-btn-bg: darkgrey;
+}
+.card {
+     width: 18rem,
+}
+nav {
+    flex-direction: column;
+    align-items: flex-start;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    padding: 8px;
+}
+form input[type="submit"] {
+    padding: 12px;
+}
