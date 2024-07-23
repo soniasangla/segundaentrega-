@@ -9,23 +9,28 @@
     <meta name="theme-color" content="#497e76">
     <title>Productos</title>
     <meta name="robots" content="index, follow">
-    <link rel="icon" type="img/jpg" href="/assets/juanitabyn.jpg">   
-    <meta name="descubrir" content="Tienda de mascotas, alimentos especiales, mejor precio del mercado, especializada en animales pequeños"> 
+    <link rel="icon" type="img/jpg" href="./assets/juanitabyn.jpg">   
+    <meta name="descubrir" content=" Tienda de mascotas, especializada en animales pequeños">
+    <meta name="keywords" content="Comida animales, alimento perro, alimento gato, bolsas de comida mascotas"> 
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mascotis">
+    <meta property="og:url" content="coderentrega1.vercel.app">
+    <meta property="og:image" content="https://github.com/soniasangla/segundaentrega-/blob/main/assets/juanitabyn.jpg">
+    <meta property="og:description" content="Mascotis! Tienda exclusiva para mascotas. Variedad de productos, mejores precion y excelente calidad! Delivery sin cargo *">    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body> 
     <header>  
         <img class="imagjuanita" src="/assets/juanitabyn.jpg" alt="juanitalogo">
-        <h1 class="animate__animated animate__pulse"> Productos</h1>
+        <h1 data-aos="zoom-out">Productos</h1>
         <nav class="cont-intro">
             <ul class="intro">  
                 <li><a href="/index.html"> Home</li>
-                <li><a href="/pages/faqs.html"> Faqs</a></li>
                 <li><a href="/pages/quienessomos.html"> Quienes somos </a></li>
                 <li><a href="/pages/contacto.html"> Contacto </a></li>
-                <li><a href="LogIn"> LogIn</a></li>
+                <li><a href="/pages/faqs.html"> Faqs</a></li>
             </ul>
         </nav>
     </header>   
@@ -110,7 +115,7 @@
         </section>
     </main>
     <footer class="end">
-        <img class="imagjuanita" src="/assets/juanitabyn.jpg" alt="logo-ppal">
+        <img class="imagjuanita" data-aos="fade-right" src="/assets/juanitabyn.jpg" alt="logo-ppal">
         <P> Puedes contactarte con nosotros al: 1158588333</P>
         <p>Consultas y dudas <a href="mailto:dudas@gmail.com"> Envia un mail </a></p>
         <p> Av. Cosme 123, Buenos Aires, Argentina </p>
@@ -121,7 +126,11 @@
             <img src="/assets/twitter.jpg" alt="twitter">
         </div> 
     </footer>
-</body>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body> 
 </html>
