@@ -3,13 +3,6 @@ body {
   margin: 0;
   padding: 0;
 }
-header {
-  background: $primary-color;
-  padding: 20px;
-  text-align: center;
-  .imagjuanita {
-    width: 100px;
-  }
   h1 {
     color: #fff;
   }
@@ -28,7 +21,6 @@ header {
       }
     }
   }
-}
 .grid-center {
   @include flex-center;
   flex-direction: column;
