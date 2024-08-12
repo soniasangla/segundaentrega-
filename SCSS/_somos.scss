@@ -1,11 +1,3 @@
-body {
-  font-family: $title-principal;
-  margin: 0;
-  padding: 0;
-}
-  h1 {
-    color: #fff;
-  }
   .cont-intro {
     @include flex-center;
   .intro {
@@ -29,26 +21,16 @@ body {
     width: 300px;
     margin: 20px 0;
   }
-  iframe {
+  .iframe {
     margin: 20px 0;
   }
 }
 .end {
  .imagjuanita {
     width: 80px;
-  }
-  input {
     margin: 10px 0;
     padding: 10px;
     border: none;
     border-radius: 5px;
   }
-  div {
-    margin-top: 10px;
-   img {
-      width: 30px;
-      margin: 0 5px;
-    }
-  }
 }
-

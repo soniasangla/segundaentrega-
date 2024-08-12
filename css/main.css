@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-header {
+.detalle {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,7 +16,7 @@ header {
   text-align: center;
   margin-bottom: 20px;
 }
-img.imagjuanita {
+.imagjuanita {
   max-width: 100px;
   height: auto;
   flex-direction: wrap;
@@ -39,27 +39,22 @@ img.imagjuanita {
   padding: 10px 0;
   color: white;
 }
-.cont-intro ul.intro li a {
+.cont-intro {
   color: white;
   text-decoration: none;
   font-size: 1em;
   padding: 5px 10px;
 }
-.cont-intro ul.intro li a:hover {
+.cont-intro a:hover {
   background-color: #555;
   border-radius: 5px;
-}
-body {
-  line-height: 1.5;
-}
-main {
-  padding: 20px;
 }
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
   flex-direction: wrap;
+  padding: 20px;
 }
 .grid-item {
   background-color: #f0f0f0;
@@ -89,7 +84,7 @@ main {
 .grid-item:hover {
   background-color: #454645;
 }
-section iframe {
+.iframe{
   display: block;
   margin: 20px auto;
   width: 100%;
@@ -98,30 +93,19 @@ section iframe {
   border: 0;
   border-radius: 5px;
 }
-h2, h3 {
-  margin-bottom: 10px;
-}
-details {
-  margin-bottom: 10px;
-}
-details summary {
+.detalles {
   cursor: pointer;
   font-weight: bold;
-}
-ul, ol {
   margin-top: 5px;
   margin-left: 20px;
 }
-textarea {
+.form-control {
   width: 100%;
   height: 100px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-top: 10px;
-}
-p {
-  margin-top: 20px;
 }
 .grid-center {
   display: grid;
@@ -133,23 +117,16 @@ p {
   place-items: center;
   text-align: center;
 }
+.mapa{
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
 .btn-primary {
   --bs-btn-bg: darkgrey;
 }
 .card {
   width: 18rem;
-}
-nav {
-  flex-direction: column;
-  align-items: flex-start;
-}
-form input[type=text],
-form input[type=email],
-form input[type=tel] {
-  padding: 8px;
-}
-form input[type=submit] {
-  padding: 12px;
 }
 .form-container {
   max-width: 600px;
@@ -159,7 +136,7 @@ form input[type=submit] {
   border-radius: 5px;
   background-color: #f9f9f9;
 }
-form fieldset {
+.detalles {
   border: none;
   margin-bottom: 15px;
 }
@@ -198,36 +175,25 @@ form input[type=submit]:hover {
 form input[type=checkbox] {
   margin-right: 10px;
 }
-body {
-  font-family: "Playwrite DE Grund";
-  margin: 0;
-  padding: 0;
-}
 header {
   background: #141516;
   padding: 20px;
   text-align: center;
 }
-header .imagjuanita {
+.imagjuanita {
   width: 100px;
-}
-header h1 {
   color: #fff;
 }
-header .cont-intro {
+.cont-intro {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-header .cont-intro .intro {
   list-style: none;
   padding: 0;
-}
-header .cont-intro .intro li {
   display: inline;
   margin: 0 10px;
 }
-header .cont-intro .intro li a {
+.intro li a {
   color: #fff;
   text-decoration: none;
 }
@@ -244,9 +210,6 @@ header .cont-intro .intro li a {
 }
 .grid-center iframe {
   margin: 20px 0;
-}
-.end .imagjuanita {
-  width: 80px;
 }
 .end input {
   margin: 10px 0;
@@ -290,27 +253,6 @@ header .cont-intro .intro li a {
   height: 30px;
   margin: 0 5px;
 }
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    align-items: center;
-  }
-  nav a {
-    margin-bottom: 10px;
-  }
-  form input[type=submit] {
-    padding: 15px;
-  }
-}
-@media (max-width: 480px) {
-  body {
-    padding: 10px;
-  }
-}
-@media (max-width: 768px) {
-  textarea {
-    height: 150px;
-  }
-}
+
 
 /*# sourceMappingURL=main.css.map */
